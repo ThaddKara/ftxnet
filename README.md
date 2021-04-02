@@ -1,5 +1,5 @@
 # ftxnet
-DotNET Core websocket wrapper - basic data collection for cryptocurrency derivatives
+DotNET Core FTX websocket wrapper - basic data collection for cryptocurrency derivatives
 
 
 # running
