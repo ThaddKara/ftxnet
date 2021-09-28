@@ -33,13 +33,13 @@ namespace ftxnet
             await Task.Delay(5000);//should tidy this up
 
             socket.SendMessage(btctrades);
-            socket.SendMessage(btcorderbook);
-            socket.SendMessage(btcticker);
+            //socket.SendMessage(btcorderbook);
+            //socket.SendMessage(btcticker);
 
             Thread.Sleep(1000);
 
             //unsub
-            unsubreqs.ForEach(e => socket.SendMessage(e));
+            //unsubreqs.ForEach(e => socket.SendMessage(e));
 
             Console.ReadLine();
         }
